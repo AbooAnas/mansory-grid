@@ -1,0 +1,22 @@
+.fb-container{
+    background-color: #3e9845;
+    height: 250px;
+    display: flex;
+    padding: 10px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center
+}
+.fb-child{
+    background-color: #eddbff;
+    padding: 20px 30px;
+    font-weight: 500;
+    font-size: 30px;
+    border-radius:12px;
+    text-align: center;
+    margin: 10px;
+    line-height: 70px;
+    max-width: 70px;
+
+}

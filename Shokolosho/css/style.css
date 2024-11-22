@@ -1,0 +1,27 @@
+/* selector{
+    property: value;
+}
+ */
+
+ /* Element Selectors */
+h2{
+    background-color: green;
+}
+/* Class Selectors */
+.alignment{
+    background-color: beige;
+    text-align: center;
+}
+#services{
+    background-color: blueviolet;
+}
+/* Universal Selector */
+*{
+    font-family: "Roboto", sans-serif;
+
+}
+/* Group Selector */
+h2, h3{
+    font-family:'Poppins', sans-serif;
+}
+/* Combinator Selectors */

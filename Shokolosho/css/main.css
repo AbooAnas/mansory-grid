@@ -1,0 +1,109 @@
+*{
+   
+    font-family: "Roboto", sans-serif;
+    
+}
+body{
+    /* width: 700px; */
+    height: 100vh;
+    color: #202e3a;
+     background-color: rgba(47, 0, 255, 0.336);
+    background-image: url(../images/nature.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; 
+    background-position: center center;
+   
+
+}
+
+.content{
+    background-color: #fff;
+    padding: 8px 12px;
+}
+.break{
+    height: 100px;
+}
+.bg-div{
+    color: #1d0653;
+    background-color: #eddbff;
+    padding: 10px;
+}
+.logo{
+    width: 25%;
+     display: inline;
+    padding: 3px 8px; 
+    background-color: #b8d7ff;
+    border-left: 7px #1d0653 solid;
+    margin: 10px 20px;
+}
+/* .item-1{
+    color: red;
+}
+.item-2{
+    background-color: yellow;
+}
+.item-3{
+    text-align: center;
+}
+.item-4{
+    text-decoration: 5px underline red dotted;
+}
+.item-5{
+    text-transform: capitalize;
+    /* letter-spacing: 3px; */
+    /* word-spacing: 20px; */
+/* }
+/* .item-6{
+    text-shadow: 7px 5px 2px black;
+}
+.item-7{
+    /* font-family: 'Times New Roman', Times, serif; */
+    /* font-size: 50px;
+    font-weight: 
+} */
+.my-list{
+    margin: 0;
+    list-style-type: circle;
+}
+.my-list li{
+    display: inline-block;
+    margin: 0;
+    padding: 15px 0;
+    width: 19.3%;
+    border: 1px solid black;
+    border-radius: 8px;
+    text-align: center;
+    background-color: #c9e6ff;
+    box-shadow: 1px 1px 3px black;
+}
+.my-table{
+    width: 100%;
+}
+.my-table, .my-table tr td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+.img-conatiner{
+    background-color: skyblue;
+    height: 80vh;
+    position: relative;
+}
+.feature-img{
+    position: absolute;
+    width: 150px;
+    top: 0;
+    left: 50%;
+}
+.feature-para{
+    position: relative;
+    z-index: 1
+}
+.chat-img{
+    width: 50px;
+    position: fixed;
+    bottom: 10px;
+    right: 15px;
+
+}
