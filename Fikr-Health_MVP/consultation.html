@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book a Consultation</title>
+    <link rel="stylesheet" href="consultation.css">
+</head>
+<body>
+    <main>
+        <h1>Let's Guide You to Better Health</h1>
+        <p>
+            We're here to help you achieve your health goals with guidance rooted in prophetic medicine. Whether you have questions about our products, need personalized advice, or want to discuss your wellness journey, our experts are ready to assist.
+        </p>
+
+        <section>
+            <h2>Our Consultation Services</h2>
+            <ul>
+                <li>
+                    <h3>General Health Advice</h3>
+                    <p>Guidance based on prophetic medicine principles.</p>
+                </li>
+                <li>
+                    <h3>Product Recommendations</h3>
+                    <p>Assistance in choosing the right products.</p>
+                </li>
+                <li>
+                    <h3>Personalized Wellness Plans</h3>
+                    <p>Tailored advice for specific health concerns.</p>
+                </li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Book Your Consultation</h2>
+            <form action="/submit-consultation" method="POST">
+                <div>
+                    <label for="fullName">Full Name *</label>
+                    <input type="text" id="fullName" name="fullName" required>
+                </div>
+
+                <div>
+                    <label for="email">Email Address *</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div>
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" name="phone">
+                </div>
+
+                <div>
+                    <label for="date">Preferred Date *</label>
+                    <input type="date" id="date" name="date" required>
+                </div>
+
+                <div>
+                    <label for="time">Preferred Time *</label>
+                    <select id="time" name="time" required>
+                        <option value="">Select a time slot</option>
+                        <option value="morning">Morning (9:00 AM - 12:00 PM)</option>
+                        <option value="afternoon">Afternoon (1:00 PM - 4:00 PM)</option>
+                        <option value="evening">Evening (5:00 PM - 7:00 PM)</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="consultationType">Consultation Type *</label>
+                    <select id="consultationType" name="consultationType" required>
+                        <option value="">Select consultation type</option>
+                        <option value="general">General Health Advice</option>
+                        <option value="products">Product Recommendations</option>
+                        <option value="wellness">Personalized Wellness Plans</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="message">Reason for Consultation *</label>
+                    <textarea id="message" name="message" rows="4" required 
+                        placeholder="Please share any specific concerns or questions you'd like to discuss"></textarea>
+                </div>
+
+                <div>
+                    <small>* Required fields</small>
+                </div>
+
+                <div>
+                    <button type="submit">Book Consultation</button>
+                </div>
+            </form>
+        </section>
+
+        <section>
+            <h2>Frequently Asked Questions</h2>
+            <dl>
+                <dt>How long does the consultation last?</dt>
+                <dd>Each consultation session typically lasts 30-45 minutes, giving us enough time to thoroughly discuss your health concerns and develop appropriate recommendations.</dd>
+
+                <dt>Can I reschedule my appointment?</dt>
+                <dd>Yes, you can reschedule your appointment up to 24 hours before your scheduled time. Please contact us via email or phone to make any changes to your booking.</dd>
+
+                <dt>Are the consultations confidential?</dt>
+                <dd>Absolutely. We maintain strict confidentiality of all consultations and your personal information. Your privacy and trust are paramount to us.</dd>
+            </dl>
+        </section>
+    </main>
+</body>
+</html>
